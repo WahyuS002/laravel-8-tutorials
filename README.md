@@ -20,5 +20,5 @@
     
     ```
     Note :
-    Perubahan syntax route terjadi karena di serviceprovider.php tidak disediakan variable $protected namespace
+    Perubahan syntax route terjadi karena di RouteServiceProvider.php tidak disediakan variable $protected namespace
     ```
