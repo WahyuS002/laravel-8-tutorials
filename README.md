@@ -13,7 +13,7 @@
 - Fitur [maintenance](https://laravel.com/docs/8.x/configuration#maintenance-mode) sekarang lebih keren bisa di cek juga menggunakan artisan `php artisan down --help`
 - Factory laravel 8 sekarang telah memiliki class, dan cara penggunaan factory berbeda dari yang versi sebelumnya
     - Sebelumnya `factory('App\User', 5)->create();`
-    - Sekarang `User::factory()->count(5)->make();`
+    - Sekarang `User::factory()->count(5)->create();`
 - Syntax route berubah
     - Sebelumnya `Route::get('welcome', 'WelcomeController@index);`
     - Sekarang `Route::get('welcome', [WelcomeController::class, 'index']);
